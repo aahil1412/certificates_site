@@ -1,26 +1,49 @@
   
 body {
-  font-size: 16px;
+  font-size: 20px;
   color: black;
-  background-color: #A9A9A9;
+  background-color:     #F0FFFF;
   font-family: 'Oxygen', sans-serif;
+  padding-left: 5%;
+  border: 10px dashed #FF0000;
+
+
 }
 div{
-    font-size: 16px;
+    font-size: 20px;
     color: blue;
 }
 a{
-  font-size: 16px;
-  color: blue;  
+  font-size: 20px;
+  color: blue;
+  
+   
 }
-h1{
+h1{ 
   text-align: center;
-  color: #8B0000;  
+  color:    #F4A460; 
+  font-size: 48px;
 }
 h2{
   text-align: center;
-  color: #006400;  
+  color: black;
+  padding-right: 2%;
+  font-size:32px; 
 }
 p{
     font-weight: bold;
+}
+a:hover,div:hover{
+    color: red;
+    background-color: yellow;
+    width:50%;
+    font-weight: bold;
+    font-size: 24px;
+    outline: 3px double #FF4500;
+}
+li{
+    margin:0 1em ;
+}
+ol{
+    margin:0 1em ;
 }
